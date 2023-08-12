@@ -1,0 +1,641 @@
+
+@font-face {
+    font-family:afternoon-in-stereo-personal ;
+    src: url(fonts/afternoon-in-stereo-personal-us.regular.ttf);
+}
+
+
+@font-face {
+    font-family:october-twilight ;
+    src: url(fonts/october-twilight.regular.ttf);
+}
+
+@font-face {
+    font-family: averia;
+    src: url(fonts/AveriaSerifLibre-Bold.ttf);
+}
+
+@font-face {
+    font-family: averia-l;
+    src: url(fonts/AveriaSerifLibre-Light.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family:AlexBrush ;
+    src: url(fonts/AlexBrush-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family:ARLRDBD ;
+    src: url(fonts/ARLRDBD.TTF);
+}
+
+
+@font-face {
+    font-family:bahnschrift ;
+    src: url(fonts/bahnschrift.ttf);
+}
+
+
+
+@font-face {
+    font-family: Bungee;
+    src: url(fonts/Bungee-Regular.ttf);
+}
+
+@font-face {
+    font-family:GrandHotel ;
+    src: url(fonts/GrandHotel-Regular.otf);
+}
+
+
+@font-face {
+    font-family:Bungee ;
+    src: url(fonts/Bungee-Regular.ttf);
+}
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.container{
+width: 100vw;
+height: 100vh;
+background-color: pink;
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow: hidden;
+
+}
+
+.navbar{
+width: 100%;
+height: 20%;
+/* background-color: fuchsia; */
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.Logo{
+width:12%;
+height: 100%;
+/* background-color: springgreen; */
+}
+
+.img{
+width: 100%;
+height: 100%;
+}
+
+.nav-items{
+width:70%;
+height: 30%;
+/* background-color: cornflowerblue; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: averia;
+font-weight: bolder;
+}
+
+.Search{
+width: 30%;
+color: white;
+height: 70%;
+background-color: palevioletred;
+border-radius: 50px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+font-family: averia;
+font-weight: 800;
+}
+
+.card{
+    width:80% ;
+    height:75%;
+    /* background-color: blueviolet;  */
+    display: flex;
+}
+
+.Lefty{
+width: 50%;
+height: 100%;
+/* background-color: red; */
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.Righty{
+    width: 50%;
+    height: 100%;
+    /* background-color: bisque;    */
+}
+
+/* 
+.img{
+width:100%;
+height: 90%;
+background-color: black;
+} */
+
+
+.Food-img{
+width: 100%;
+height: 100%;
+}
+
+.Special{
+width: 80%;
+color: #D1462F;
+font-family: GrandHotel;
+height:fit-content;
+/* background-color: blue ; */
+line-height: 60px;
+font-size: xx-large;
+}
+
+.Menu{
+font-family: Bungee;
+color: #D1462F;
+font-size: 60px
+}
+
+.Text{
+width: 85%;
+height:fit-content ;
+font-size: large;
+/* background-color: rosybrown; */
+font-family: averia;
+font-weight: bolder;
+color: #573D1C;
+}
+
+.Bun{
+    height: 15%;
+    width: 40%;
+font-size: 20px;
+background-color: #D1462F;
+border: 1px solid #D1462F;
+border-radius: 50px;
+font-family: averia;
+}
+
+
+.Text-content{
+    /* background-color: mediumorchid; */
+    width: fit-content;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+    
+}
+
+
+
+
+
+
+
+/* About page */
+
+
+
+.Text1{
+width: 100%;
+height: 20%;
+/* background-color: palegreen; */
+display: flex;
+justify-content:space-around ;
+flex-direction: column;
+align-items: center;
+font-family: averia;
+font-weight: bolder;
+text-align: center;
+}
+
+.Card{
+width: 70%;
+height: 60%;
+/* background-color:mediumaquamarine; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.Box1{
+width: 30%;
+height: 70%;
+background-color: beige;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+box-shadow: 10px 10px 5px grey;
+}
+
+
+
+.image{
+width: 40%;
+height: 30%;
+/* background-color: mediumslateblue; */
+}
+
+.text2{
+    width: 70%;
+    height: 10%;
+    /* background-color: palegreen; */
+    font-family: averia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.text3{
+width: 85%;
+height:fit-content;
+/* background-color: gold; */
+font-family: averia-l;
+font-weight:lighter;
+font-size:small;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-weight: bolder;
+}
+
+.icon{
+width: 100%;
+height: 100%;
+border-radius: 50px;
+}
+
+
+.head{
+/* background-color: peachpuff; */
+width:auto;
+height:auto;
+font-family: october-twilight;
+}
+
+.box1{
+width: 80%;
+height: 70%;
+/* background-color: springgreen; */
+display: flex;
+}
+
+.Lefty1{
+width: 50%;   
+height: 100%; 
+/* background-color: aqua; */
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+.Righty1{
+width: 50%;
+height: 100%;
+/* background-color: purple; */
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+}
+
+
+.boxes{
+width: 70%;
+height: 25%;
+/* background-color: gold; */
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+}
+
+.content{
+width: 70%;
+height: 100%;
+/* background-color:beige ; */
+display: flex;
+padding: 30px;
+}
+
+.img1{
+width: 30%;
+height: 80%;
+
+/* background-color: lightgoldenrodyellow; */
+
+}
+
+.pic{
+width: 100%;
+height: 100%;
+}
+
+
+.Chicken-box{
+width:100%;
+height: 80%;
+/* background-color:navy; */
+}
+
+.Veggies{
+color:#573D1C;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+font-family: averia;
+font-weight: bolder;
+}
+
+.Mon{
+    color: mediumvioletred;
+    font-family: averia;
+    font-weight: 800;
+}
+
+
+.gray{
+color:grey;
+font-size: x-small;
+font-family: averia;
+font-weight: bolder;
+}
+
+
+.Book{
+width: 70%;
+height: 70%;
+/* background-color: whitesmoke; */
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+font-family: averia;
+/* font-weight: bolder; */
+
+
+}
+
+.Box2{
+width: 60%;
+height: 60%;
+/* background-color: black; */
+display: flex;
+grid-gap: 5%;
+
+}
+
+.Lefty2{
+width: 50%;
+height: 100%;
+/* background-color: blue; */
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+
+.Righty2{
+width: 50%;
+height: 100%;
+/* background-color:green; */
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.Leaf{
+width: 100%;
+height: 20%;
+background-color: bisque;
+
+}
+
+.text-name{
+width: 100%;
+height: 100%;
+background-color: beige;
+font-size: medium;
+font-family: averia;
+}
+
+.Bun1{
+width: 25%;
+height: 10%;
+background-color: #D1462F;
+font-family: averia;
+}
+
+
+
+
+.head2{
+width: 30%;
+height:15%;
+font-size: 40px;
+/* background-color: aquamarine; */
+font-family: afternoon-in-stereo-personal;
+color: #573D1C;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.head-s{
+    width: 100%;
+    height:15%;
+    font-size: 20px;
+    /* background-color: aquamarine; */
+    font-family: afternoon-in-stereo-personal;
+    color: #573D1C;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.Box3{
+width: 80%;
+height: 60%;
+background-color: black;
+display: flex;
+}
+
+.Lefty3{
+width:50%;
+height: 100%;
+background-color: beige;
+/* border: 2px solid #573D1C; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Righty3{
+width: 50%;
+height: 100%;
+background-color: beige;
+/* border: 2px solid #573D1C; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.TEXT4{
+width: 50%;
+height: 80%;
+background-color: white;
+border-top: 2px red solid;
+}
+
+
+.img2{
+width: 40%;
+height: 50%;
+/* background-color:aquamarine; */
+}
+
+.Names{
+    height: 20%;
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text6{
+width: 100%;
+height:70% ;
+background-color: seashell;
+line-height: 40px;
+font-family: averia;
+}
+
+.Img6{
+width:100%;
+height: 100%;
+}
+
+.Grilled{
+width: 100%;
+height: 100%;
+}
+.img7{
+width: 25%;
+height: 100%;
+/* background-color: blueviolet; */
+}
+
+
+.watch{
+width: 100%;
+height: 100%;
+border-radius:50px;
+}
+.Text5{
+width: 50%;
+height: 100%;
+/* background-color: aquamarine; */
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: averia;
+font-weight: 800;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #573D1C;
+    font-weight: bold;
+}
+
+.btn-links{
+    color: #F7E3AF;
+    text-decoration: none;
+}
+
+.search-links{
+    width: 100%;
+    height: 100%;
+    background-color: #D1462F;
+border-radius: 50px;
+font-family: averia;
+font-weight: 800;
+color: gold;
+}
